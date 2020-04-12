@@ -57,7 +57,7 @@ While quantum simulator gives perfect agreement with the analytical solution, qu
 
 #### Manual
 
-Required packages can be installed using *pip* and are listed in the *requirements.txt* file.
+Required packages can be installed using *pip* and are listed in *requirements.txt* file.
 To get correlation ![S(\theta)](https://render.githubusercontent.com/render/math?math=S(%5Ctheta)) use 
 
 `$ python run.py` 
