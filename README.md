@@ -9,7 +9,7 @@ Modeling Belle's (CHSH) inequality with Qiskit.
 
 From the classical point of view, the following inequality holds for any local hidden variable theory 
 
-![|S| \textless 2](https://render.githubusercontent.com/render/math?math=%7CS%7C%20%5Ctextless%202)                                                     (1).
+![|S| \textless 2 \ \ \ \ \ \ \ (1).](https://render.githubusercontent.com/render/math?math=%7CS%7C%20%5Ctextless%202%20%5C%20%5C%20%5C%20%5C%20%5C%20%5C%20%5C%20(1).)
 
 Here 
 
@@ -26,11 +26,11 @@ Thus ineq. 1 appears to be an important and convenient test in favor of one or a
 
 #### Detectors orientation:
 
- We constrain angles between detectors as (A, B)=(B, A)=(A1, B1)=\theta, and S becomes only a function of theta.  
+ We constrain angles between detectors as ![\angle(\textbf{A, B})=\angle(\textbf{B, A^'})=\angle(\textbf{A^',B^' })=\theta](https://render.githubusercontent.com/render/math?math=%5Cangle(%5Ctextbf%7BA%2C%20B%7D)%3D%5Cangle(%5Ctextbf%7BB%2C%20A%5E'%7D)%3D%5Cangle(%5Ctextbf%7BA%5E'%2CB%5E'%20%7D)%3D%5Ctheta), and ![S](https://render.githubusercontent.com/render/math?math=S) becomes only a function of theta.  
  
  ![Positions of detectors (A, A', B, B'). Bloch's spheres were projected onto xz plane.](/images/bloch_sphere.png)
 
-*Positions of detectors (A, A', B, B'). Bloch's spheres were projected onto xz plane.*
+*Projection of Bloch's sphere onto xz plane and positions of detectors (A, A', B, B') for ![\theta=0, \frac{\pi}{4}, \frac{\pi}{2}](https://render.githubusercontent.com/render/math?math=%5Ctheta%3D0%2C%20%5Cfrac%7B%5Cpi%7D%7B4%7D%2C%20%5Cfrac%7B%5Cpi%7D%7B2%7D). *
 
 #### QM analytical solution for spin 1/2 system:
 
