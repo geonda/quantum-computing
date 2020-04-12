@@ -9,10 +9,14 @@ Modeling Belle's (CHSH) inequality with Qiskit.
 
 From the classical point of view, the following inequality holds for any local hidden variable theory 
 
-|![|S|<2](https://render.githubusercontent.com/render/math?math=%7CS%7C%3C2)                                            (1).
+![\abs{S}<2](https://render.githubusercontent.com/render/math?math=%5Cabs%7BS%7D%3C2)                                            (1).
 
 Here 
-![S=E(AB)-E(AB1)+E(A1B)+E(A1B1)](https://render.githubusercontent.com/render/math?math=S%3DE(AB)-E(AB1)%2BE(A1B)%2BE(A1B1)) and 
+
+![S=E(AB)-E(AB1)+E(A1B)+E(A1B1)](https://render.githubusercontent.com/render/math?math=S%3DE(AB)-E(AB1)%2BE(A1B)%2BE(A1B1)) 
+
+and 
+
 ![E(AB)](https://render.githubusercontent.com/render/math?math=E(AB))
 
 is a correlation function obtained from two detectors oriented along arbitrary vectors *A* and *B*.
