@@ -13,7 +13,7 @@ From the classical point of view, the following inequality holds for any local h
 
 Here 
 
-![S=E(AB)-E(AB1)+E(A1B)+E(A1B1)](https://render.githubusercontent.com/render/math?math=S%3DE(AB)-E(AB1)%2BE(A1B)%2BE(A1B1)) 
+![S=E(AB)-E(AB')+E(A'B)+E(A'B')](https://render.githubusercontent.com/render/math?math=S%3DE(AB)-E(AB1)%2BE(A1B)%2BE(A1B1)) 
 
 and 
 
@@ -30,9 +30,9 @@ Thus inequality 2 appears to be an important and convenient test in favor of one
 
  We constrain angles between detectors as (A, B)=(B, A)=(A1, B1)=\theta, and S becomes only a function of theta.  
  
- ![Positions of detectors (A, A1, B, B1). Bloch's spheres were projected onto xz plane.](/images/bloch_sphere.png)
+ ![Positions of detectors (A, A', B, B'). Bloch's spheres were projected onto xz plane.](/images/bloch_sphere.png)
 
-*Positions of detectors (A, A1, B, B1). Bloch's spheres were projected onto xz plane.*
+*Positions of detectors (A, A', B, B'). Bloch's spheres were projected onto xz plane.*
 
 #### QM analytical solution for spin 1/2 system:
 
@@ -49,8 +49,8 @@ While quantum simulator gives perfect agreement with the analytical solution, qu
 
 #### Manual:
 
-Required packages can be installed using 'pip' and are listed in the 'requirements.txt' file.
-Use `python run.py` to get correlation S vs \theta. There are two options for QM calculations using Aer qiskit simulator (run_type='sim') and real quantum computer (run_type='ibmq'). To use ibm quantum computer one has to register [here] (https://quantum-computing.ibm.com) and specify token and name of the machine in the 'ibm_setting.json'.
+Required packages can be installed using 'pip' and are listed in the *requirements.txt* file.
+Use `python run.py` to get correlation S vs \theta. There are two options for QM calculations using Aer qiskit simulator (`run_type='sim'`) and real quantum computer (`run_type='ibmq'`). To use ibm quantum computer one has to register [here](https://quantum-computing.ibm.com) and specify token and name of the machine in the *ibm_setting.json*.
 
 #### Usefull links:
 
