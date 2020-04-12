@@ -1,7 +1,7 @@
 # quantum-computing
 Belle's (CHSH) inequality modeling with Qiskit.
 
-- Formulation:
+# Formulation:
 
 From the classical point of view, the following inequality holds for any local hidden variable theory |S|<2 (1).
 Here S=E(AB)-E(AB1)+E(A1B)+E(A1B1) and E(AB) is a correlation function obtained from two detectors oriented along arbitrary vectors A and B.
