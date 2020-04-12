@@ -1,6 +1,9 @@
 # quantum-computing
 Belle's (CHSH) inequality modeling with Qiskit.
 
+![CHSH correlation function vs relative angle between detectors ($\theta$).](/images/correlation.png)
+*iCHSH correlation function vs relative angle between detectors ($\theta$).*
+
 #### Formulation:
 
 From the classical point of view, the following inequality holds for any local hidden variable theory |S|<2 (1).
@@ -9,8 +12,6 @@ Here S=E(AB)-E(AB1)+E(A1B)+E(A1B1) and E(AB) is a correlation function obtained 
 However, within the framework of quantum mechanics (QM), things are different. There are specific orientations for which S is greater than two.  
 
 Thus inequality 2 appears to be an important and convenient test in favor of one or another theory.  So far, the experiment (despite some challenges) confirms the prediction of the quantum mechanic and, consequently, the non-locality of nature.
-
-![CHSH correlation function vs relative angle between detectors ($\theta$).](/images/correlation.png)
 
 
 #### Detectors orientation:
