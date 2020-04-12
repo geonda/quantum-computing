@@ -10,7 +10,7 @@ However, within the framework of quantum mechanics (QM), things are different. T
 
 Thus inequality 2 appears to be an important and convenient test in favor of one or another theory.  So far, the experiment (despite some challenges) confirms the prediction of the quantum mechanic and, consequently, the non-locality of nature.
 
-[CHSH correlation function vs relative angle between detectors ($\theta$).](/images/correlation.png)
+![CHSH correlation function vs relative angle between detectors ($\theta$).](/images/correlation.png)
 
 
 #### Detectors orientation:
