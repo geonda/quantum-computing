@@ -30,10 +30,13 @@ While quantum simulator gives perfect agreement with the analytical solution, qu
 
 ![Positions of detectors (A, A1, B, B1). Bloch's spheres were projected onto xz plane.](/images/bloch_sphere.png)
 
-- Manual: \n
+- Manual:
+
 Required packages can be installed using 'pip' and are listed in the 'requirements.txt' file.
 Use `python run.py` to get correlation S vs \theta. There are two options for QM calculations using Aer qiskit simulator (run_type='sim') and real quantum computer (run_type='ibmq'). To use ibm quantum computer one has to register here (https://quantum-computing.ibm.com) and specify token and name of the machine in the 'ibm_setting.json'.
 
--Usefull links: \n
+- Usefull links:
+
 https://qiskit.org/textbook/ch-ex/hello-qiskit.html#Bell-test-for-classical-variables
+
 https://pythonprogramming.net/quantum-computer-programming-tutorial/
