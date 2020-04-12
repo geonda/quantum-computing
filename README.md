@@ -2,7 +2,8 @@
 Belle's (CHSH) inequality modeling with Qiskit.
 
 ![CHSH correlation function vs relative angle between detectors ($\theta$).](/images/correlation.png)
-*iCHSH correlation function vs relative angle between detectors ($\theta$).*
+
+*CHSH correlation function vs relative angle between detectors ($\theta$).*
 
 #### Formulation:
 
