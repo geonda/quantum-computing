@@ -13,7 +13,7 @@ From the classical point of view, the following inequality holds for any local h
 
 Here 
 
-![S=E(AB)-E(AB')+E(A'B)+E(A'B')](https://render.githubusercontent.com/render/math?math=S%3DE(AB)-E(AB')%2BE(A1B)%2BE(A'B')) 
+![S=E(\textbf{AB})-E(\textbf{AB^'})+E(\textbf{A^'B})+E(\textbf{A^'B^'})](https://render.githubusercontent.com/render/math?math=S%3DE(%5Ctextbf%7BAB%7D)-E(%5Ctextbf%7BAB%5E'%7D)%2BE(%5Ctextbf%7BA%5E'B%7D)%2BE(%5Ctextbf%7BA%5E'B%5E'%7D))
 
 and 
 
