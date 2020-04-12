@@ -9,17 +9,15 @@ Modeling Belle's (CHSH) inequality with Qiskit.
 
 From the classical point of view, the following inequality holds for any local hidden variable theory 
 
-![|S|<2](https://render.githubusercontent.com/render/math?math=|S|<2)                                            (1).
+![|S| \textless 2](https://render.githubusercontent.com/render/math?math=%7CS%7C%20%5Ctextless%202)                                          (1).
 
 Here 
 
-![S=E(AB)-E(AB')+E(A'B)+E(A'B')](https://render.githubusercontent.com/render/math?math=S%3DE(AB)-E(AB1)%2BE(A1B)%2BE(A1B1)) 
+![S=E(AB)-E(AB')+E(A'B)+E(A'B')](https://render.githubusercontent.com/render/math?math=S%3DE(AB)-E(AB')%2BE(A1B)%2BE(A'B')) 
 
 and 
 
-![E(AB)](https://render.githubusercontent.com/render/math?math=E(AB))
-
-is a correlation function obtained from two detectors oriented along arbitrary vectors *A* and *B*.
+![E(AB)](https://render.githubusercontent.com/render/math?math=E(AB)) - is a correlation function obtained from two detectors oriented along arbitrary vectors *A* and *B*.
 
 However, within the framework of quantum mechanics (QM), things are different. There are specific orientations for which S is greater than two.  
 
