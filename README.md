@@ -13,11 +13,11 @@ From the classical point of view, the following inequality holds for any local h
 
 Here 
 
-![E(\textbf{AB})](https://render.githubusercontent.com/render/math?math=E(%5Ctextbf%7BAB%7D))      (2).   
+![S=E(\textbf{AB})-E(\textbf{AB^'})+E(\textbf{A^'B^'})+E(\textbf{A^'B}) \ \ \ \ \ \ \ (2).](https://render.githubusercontent.com/render/math?math=S%3DE(%5Ctextbf%7BAB%7D)-E(%5Ctextbf%7BAB%5E'%7D)%2BE(%5Ctextbf%7BA%5E'B%5E'%7D)%2BE(%5Ctextbf%7BA%5E'B%7D)%20%5C%20%5C%20%5C%20%5C%20%5C%20%5C%20%5C%20(2).)   
 
 and 
 
-![E(\textbf{AB}))](https://render.githubusercontent.com/render/math?math=E(AB)) - is a correlation function obtained from two detectors oriented along arbitrary vectors ![\textbf{A}](https://render.githubusercontent.com/render/math?math=%5Ctextbf%7BA%7D) and ![\textbf{B}](https://render.githubusercontent.com/render/math?math=%5Ctextbf%7BB%7D).
+![E(\textbf{AB})](https://render.githubusercontent.com/render/math?math=E(%5Ctextbf%7BAB%7D)) - is a correlation function obtained from two detectors oriented along arbitrary vectors ![\textbf{A}](https://render.githubusercontent.com/render/math?math=%5Ctextbf%7BA%7D) and ![\textbf{B}](https://render.githubusercontent.com/render/math?math=%5Ctextbf%7BB%7D).
 
 However, within the framework of quantum mechanics (QM), things are different. There are specific orientations for which ![S](https://render.githubusercontent.com/render/math?math=S) is greater than two.  
 
