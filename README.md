@@ -9,7 +9,7 @@ Modeling Belle's (CHSH) inequality with Qiskit.
 
 From the classical point of view, the following inequality holds for any local hidden variable theory 
 
-![\abs{S}<2](https://render.githubusercontent.com/render/math?math=%5Cabs%7BS%7D%3C2)                                            (1).
+![|S|<2](https://render.githubusercontent.com/render/math?math=|S|<2)                                            (1).
 
 Here 
 
