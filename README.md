@@ -1,11 +1,11 @@
 # quantum-computing
-Modeling Belle's (CHSH) inequality with Qiskit.
+Modeling Bell's (CHSH) inequality with Qiskit.
 
 ![CHSH correlation function (S) vs relative angle between detectors ($\theta$).](/images/correlation.png)
 
 *CHSH correlation function vs relative angle between detectors (![\theta](https://render.githubusercontent.com/render/math?math=%5Ctheta)).*
 
-#### Formulation:
+#### Formulation
 
 From the classical point of view, the following inequality holds for any local hidden variable theory 
 
@@ -44,7 +44,7 @@ here ![\left |\psi \textgreater \right .](https://render.githubusercontent.com/r
 
 #### Modeling with Qiskit
 
-![\[E(\textbf{AB}) = \frac{N(\textbf{AB})_{11}+N(\textbf{AB})_{00}-N(\textbf{AB})_{01}-N(\textbf{AB})_{10}}{N(\textbf{AB})_{11}+N(\textbf{AB})_{00}+N(\textbf{AB})_{01}+N(\textbf{AB})_{10}} \ \ \ \ \ \ \ (5).](https://render.githubusercontent.com/render/math?math=!%5BE(%5Ctextbf%7BAB%7D)%20%3D%20%5Cfrac%7BN(%5Ctextbf%7BAB%7D)_%7B11%7D%2BN(%5Ctextbf%7BAB%7D)_%7B00%7D-N(%5Ctextbf%7BAB%7D)_%7B01%7D-N(%5Ctextbf%7BAB%7D)_%7B10%7D%7D%7BN(%5Ctextbf%7BAB%7D)_%7B11%7D%2BN(%5Ctextbf%7BAB%7D)_%7B00%7D%2BN(%5Ctextbf%7BAB%7D)_%7B01%7D%2BN(%5Ctextbf%7BAB%7D)_%7B10%7D%7D%20%5C%20%5C%20%5C%20%5C%20%5C%20%5C%20%5C%20(5).)
+![E(\textbf{AB}) = \frac{N(\textbf{AB})_{11}+N(\textbf{AB})_{00}-N(\textbf{AB})_{01}-N(\textbf{AB})_{10}}{N(\textbf{AB})_{11}+N(\textbf{AB})_{00}+N(\textbf{AB})_{01}+N(\textbf{AB})_{10}} \ \ \ \ \ \ \ (5).](https://render.githubusercontent.com/render/math?math=!%5BE(%5Ctextbf%7BAB%7D)%20%3D%20%5Cfrac%7BN(%5Ctextbf%7BAB%7D)_%7B11%7D%2BN(%5Ctextbf%7BAB%7D)_%7B00%7D-N(%5Ctextbf%7BAB%7D)_%7B01%7D-N(%5Ctextbf%7BAB%7D)_%7B10%7D%7D%7BN(%5Ctextbf%7BAB%7D)_%7B11%7D%2BN(%5Ctextbf%7BAB%7D)_%7B00%7D%2BN(%5Ctextbf%7BAB%7D)_%7B01%7D%2BN(%5Ctextbf%7BAB%7D)_%7B10%7D%7D%20%5C%20%5C%20%5C%20%5C%20%5C%20%5C%20%5C%20(5).)
 
 
 ![N(\textbf{AB})_{ij} ](https://render.githubusercontent.com/render/math?math=N(%5Ctextbf%7BAB%7D)_%7Bij%7D%20) is a number of counts registered in the state with $i,j$  (![\left |ij \textgreater \right.](https://render.githubusercontent.com/render/math?math=%5Cleft%20%7Cij%20%5Ctextgreater%20%5Cright.)), where ![i,j=\{0,1\}  ](https://render.githubusercontent.com/render/math?math=i%2Cj%3D%5C%7B0%2C1%5C%7D%20%20).  
@@ -55,7 +55,7 @@ here ![\left |\psi \textgreater \right .](https://render.githubusercontent.com/r
 While quantum simulator gives perfect agreement with the analytical solution, quantum calculations on real devices accompanied by certain noise/errors.  For example, measurement of the  Bell state  along the *z*-axis, should not in principle, contains any contribution with mixed spin. Still, QC produces non-zero probability to obtain  |01> and |10> states (check */quantum_errors/*).
 
 
-#### Manual:
+#### Manual
 
 Required packages can be installed using 'pip' and are listed in the *requirements.txt* file.
 To get correlation ![S(\theta)](https://render.githubusercontent.com/render/math?math=S(%5Ctheta)) use 
@@ -66,8 +66,10 @@ There are two options for QM calculations using Aer qiskit simulator (`run_type=
 
 To use ibm quantum computer one has to register [here](https://quantum-computing.ibm.com) and specify token and name of the machine in the *ibm_setting.json*.
 
-#### Usefull links:
+#### Usefull links
 
 https://qiskit.org/textbook/ch-ex/hello-qiskit.html#Bell-test-for-classical-variables
 
 https://pythonprogramming.net/quantum-computer-programming-tutorial/
+
+#### References
