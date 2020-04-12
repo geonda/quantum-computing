@@ -1,5 +1,5 @@
 # quantum-computing
-Belle's (CHSH) inequality modeling with Qiskit.
+Modeling Belle's (CHSH) inequality with Qiskit.
 
 ![CHSH correlation function (S) vs relative angle between detectors ($\theta$).](/images/correlation.png)
 
@@ -7,8 +7,15 @@ Belle's (CHSH) inequality modeling with Qiskit.
 
 #### Formulation:
 
-From the classical point of view, the following inequality holds for any local hidden variable theory |S|<2 (1).
-Here ![S=E(AB)-E(AB1)+E(A1B)+E(A1B1)](https://render.githubusercontent.com/render/math?math=S%3DE(AB)-E(AB1)%2BE(A1B)%2BE(A1B1)) and ![E(AB)](https://render.githubusercontent.com/render/math?math=E(AB)) is a correlation function obtained from two detectors oriented along arbitrary vectors *A* and *B*.
+From the classical point of view, the following inequality holds for any local hidden variable theory 
+
+|![|S|<2](https://render.githubusercontent.com/render/math?math=%7CS%7C%3C2)                                            (1).
+
+Here 
+![S=E(AB)-E(AB1)+E(A1B)+E(A1B1)](https://render.githubusercontent.com/render/math?math=S%3DE(AB)-E(AB1)%2BE(A1B)%2BE(A1B1)) and 
+![E(AB)](https://render.githubusercontent.com/render/math?math=E(AB))
+
+is a correlation function obtained from two detectors oriented along arbitrary vectors *A* and *B*.
 
 However, within the framework of quantum mechanics (QM), things are different. There are specific orientations for which S is greater than two.  
 
@@ -21,6 +28,7 @@ Thus inequality 2 appears to be an important and convenient test in favor of one
  
  ![Positions of detectors (A, A1, B, B1). Bloch's spheres were projected onto xz plane.](/images/bloch_sphere.png)
 
+*Positions of detectors (A, A1, B, B1). Bloch's spheres were projected onto xz plane.*
 
 #### QM analytical solution for spin 1/2 system:
 
