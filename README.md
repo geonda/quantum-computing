@@ -38,7 +38,7 @@ Then ![S](https://render.githubusercontent.com/render/math?math=S) becomes only 
 
 ![E(\textbf{AB}) =\textless \psi|\sigma(\textbf{A}) \sigma(\textbf{B})|\psi \textgreater=cos(\theta) \ \ \ \ \ \ \ (3),](https://render.githubusercontent.com/render/math?math=E(%5Ctextbf%7BAB%7D)%20%3D%5Ctextless%20%5Cpsi%7C%5Csigma(%5Ctextbf%7BA%7D)%20%5Csigma(%5Ctextbf%7BB%7D)%7C%5Cpsi%20%5Ctextgreater%3Dcos(%5Ctheta)%20%5C%20%5C%20%5C%20%5C%20%5C%20%5C%20%5C%20(3)%2C)
 
-here ![\left |\psi \textgreater \right .](https://render.githubusercontent.com/render/math?math=%5Cleft%20%7C%5Cpsi%20%5Ctextgreater%20%5Cright%20.) is entanglet state of two qubits (Bell state):
+here ![\left |\psi \textgreater \right .](https://render.githubusercontent.com/render/math?math=%5Cleft%20%7C%5Cpsi%20%5Ctextgreater%20%5Cright%20.) is an entangled state of two qubits (Bell state):
 
 ![\left |\psi \textgreater \right .= \frac{\\[ \ |00 \textgreater + |11 \textgreater \\]}{\sqrt{2}} \ \ \ \ \ \ \ (4).](https://render.githubusercontent.com/render/math?math=%5Cleft%20%7C%5Cpsi%20%5Ctextgreater%20%5Cright%20.%3D%20%5Cfrac%7B%5C%5B%20%5C%20%7C00%20%5Ctextgreater%20%2B%20%7C11%20%5Ctextgreater%20%5C%5D%7D%7B%5Csqrt%7B2%7D%7D%20%5C%20%5C%20%5C%20%5C%20%5C%20%5C%20%5C%20(4).)
 
