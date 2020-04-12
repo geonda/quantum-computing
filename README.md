@@ -36,7 +36,7 @@ Then ![S](https://render.githubusercontent.com/render/math?math=S) becomes only 
 
 #### QM analytical solution for spin 1/2 system:
 
-![E(AB) =<\psi_B|sigma_A sigma_B|\psi_B>=cos(AB)](https://render.githubusercontent.com/render/math?math=E(AB)%20%3D%3C%5Cpsi_B%7Csigma_A%20sigma_B%7C%5Cpsi_B%3E%3Dcos(AB))
+![E(\textbf{AB}) =\textless \psi|\sigma(\textbf{A}) \sigma(\textbf{B})|\psi \textgreater=cos(\theta)](https://render.githubusercontent.com/render/math?math=E(%5Ctextbf%7BAB%7D)%20%3D%5Ctextless%20%5Cpsi%7C%5Csigma(%5Ctextbf%7BA%7D)%20%5Csigma(%5Ctextbf%7BB%7D)%7C%5Cpsi%20%5Ctextgreater%3Dcos(%5Ctheta))
 
 - Modeling with Qiskit:
 
@@ -44,7 +44,7 @@ Then ![S](https://render.githubusercontent.com/render/math?math=S) becomes only 
 
 #### QM errors:
 
-While quantum simulator gives perfect agreement with the analytical solution, quantum calculations on real devices accompanied by certain noise/errors.  For example, measurement of the  Belle state (\frac{|00>+|11>}{\sqrt{2}}) along the z-axis, should not in principle, contains any contribution with mixed spin. Still, QC produces non-zero probability to obtain  |01> and |10> states (check /quantum_errors/).
+While quantum simulator gives perfect agreement with the analytical solution, quantum calculations on real devices accompanied by certain noise/errors.  For example, measurement of the  Bell's state (\frac{|00>+|11>}{\sqrt{2}}) along the z-axis, should not in principle, contains any contribution with mixed spin. Still, QC produces non-zero probability to obtain  |01> and |10> states (check /quantum_errors/).
 
 
 #### Manual:
