@@ -36,15 +36,18 @@ Then ![S](https://render.githubusercontent.com/render/math?math=S) becomes only 
 
 #### QM analytical solution for spin 1/2 system:
 
-![E(\textbf{AB}) =\textless \psi|\sigma(\textbf{A}) \sigma(\textbf{B})|\psi \textgreater=cos(\theta)](https://render.githubusercontent.com/render/math?math=E(%5Ctextbf%7BAB%7D)%20%3D%5Ctextless%20%5Cpsi%7C%5Csigma(%5Ctextbf%7BA%7D)%20%5Csigma(%5Ctextbf%7BB%7D)%7C%5Cpsi%20%5Ctextgreater%3Dcos(%5Ctheta))
+![E(\textbf{AB}) =\textless \psi|\sigma(\textbf{A}) \sigma(\textbf{B})|\psi \textgreater=cos(\theta) \ \ \ \ \ \ \ (3),](https://render.githubusercontent.com/render/math?math=E(%5Ctextbf%7BAB%7D)%20%3D%5Ctextless%20%5Cpsi%7C%5Csigma(%5Ctextbf%7BA%7D)%20%5Csigma(%5Ctextbf%7BB%7D)%7C%5Cpsi%20%5Ctextgreater%3Dcos(%5Ctheta)%20%5C%20%5C%20%5C%20%5C%20%5C%20%5C%20%5C%20(3)%2C)
+here ![\left |\psi \textgreater \right .](https://render.githubusercontent.com/render/math?math=%5Cleft%20%7C%5Cpsi%20%5Ctextgreater%20%5Cright%20.) is entanglet state of two qubits (Bell state):
 
-- Modeling with Qiskit:
+![\left |\psi \textgreater \right .= \frac{\[ \ |00 \textgreater + |11 \textgreater \]}{\sqrt{2}} ](https://render.githubusercontent.com/render/math?math=%5Cleft%20%7C%5Cpsi%20%5Ctextgreater%20%5Cright%20.%3D%20%5Cfrac%7B%5B%20%5C%20%7C00%20%5Ctextgreater%20%2B%20%7C11%20%5Ctextgreater%20%5D%7D%7B%5Csqrt%7B2%7D%7D%20)
+
+#### Modeling with Qiskit:
 
 ![E(AB) = \frac{N_{11}+N_{00}-N_{01}-N_{10}}{N_{11}+N_{00}+N_{01}+N_{10}}](https://render.githubusercontent.com/render/math?math=E(AB)%20%3D%20%5Cfrac%7BN_%7B11%7D%2BN_%7B00%7D-N_%7B01%7D-N_%7B10%7D%7D%7BN_%7B11%7D%2BN_%7B00%7D%2BN_%7B01%7D%2BN_%7B10%7D%7D)
 
 #### QM errors:
 
-While quantum simulator gives perfect agreement with the analytical solution, quantum calculations on real devices accompanied by certain noise/errors.  For example, measurement of the  Bell's state (\frac{|00>+|11>}{\sqrt{2}}) along the z-axis, should not in principle, contains any contribution with mixed spin. Still, QC produces non-zero probability to obtain  |01> and |10> states (check /quantum_errors/).
+While quantum simulator gives perfect agreement with the analytical solution, quantum calculations on real devices accompanied by certain noise/errors.  For example, measurement of the  Bell state  along the z-axis, should not in principle, contains any contribution with mixed spin. Still, QC produces non-zero probability to obtain  |01> and |10> states (check /quantum_errors/).
 
 
 #### Manual:
