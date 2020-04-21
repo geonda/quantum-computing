@@ -64,7 +64,7 @@ To get correlation ![S(\theta)](https://render.githubusercontent.com/render/math
 
 There are two options for QM calculations using Aer qiskit simulator (`run_type='sim'`) and real quantum computer (`run_type='ibmq'`). 
 
-To use ibm quantum computer one has to register [here](https://quantum-computing.ibm.com) and specify token and name of the machine in the *ibm_setting.json*.
+To use ibm quantum computer one has to register [here](https://quantum-computing.ibm.com) and specify token and name of the machine in *ibm_setting.json*.
 
 #### Usefull links
 
