@@ -17,7 +17,7 @@ Here
 
 and 
 
-![E(\textbf{AB})](https://render.githubusercontent.com/render/math?math=E(%5Ctextbf%7BAB%7D)) - is a correlation function (for example a spin-spin corelation function) obtained using two linear detectors oriented along arbitrary vectors ![\textbf{A}](https://render.githubusercontent.com/render/math?math=%5Ctextbf%7BA%7D) and ![\textbf{B}](https://render.githubusercontent.com/render/math?math=%5Ctextbf%7BB%7D).
+![E(\textbf{AB})](https://render.githubusercontent.com/render/math?math=E(%5Ctextbf%7BAB%7D)) - S is a correlation function (for example, spin-spin correlation function) between two points on different sides of the source. While arbitrary unit vectors ![\textbf{A}](https://render.githubusercontent.com/render/math?math=%5Ctextbf%7BA%7D) and ![\textbf{B}](https://render.githubusercontent.com/render/math?math=%5Ctextbf%7BB%7D) determine the orientation of the detectors.
 
 However, within the framework of quantum mechanics (QM), things are different. There are specific orientations of detectors for which ![S](https://render.githubusercontent.com/render/math?math=S) is greater than two.  
 
