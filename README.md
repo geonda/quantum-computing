@@ -58,18 +58,19 @@ While quantum simulator gives perfect agreement with the analytical solution, qu
 #### Manual
 
 Required packages can be installed using *pip* and are listed in *requirements.txt* file.
+
 To get correlation ![S(\theta)](https://render.githubusercontent.com/render/math?math=S(%5Ctheta)) use 
 
 `$ python run.py` 
 
-There are two options for QM calculations using Aer qiskit simulator (`run_type='sim'`) and real quantum computer (`run_type='ibmq'`). 
+There are two options for QM calculations using Aer qiskit simulator (`run_type='sim'`) or real quantum computer (`run_type='ibmq'`). 
 
 To use ibm quantum computer one has to register [here](https://quantum-computing.ibm.com) and specify token and name of the machine in *ibm_setting.json*.
 
 #### Usefull links
 
-https://qiskit.org/textbook/ch-ex/hello-qiskit.html#Bell-test-for-classical-variables
+[Qiskit docs](https://qiskit.org/textbook/ch-ex/hello-qiskit.html#Bell-test-for-classical-variables)
 
-https://pythonprogramming.net/quantum-computer-programming-tutorial/
+[QC tutorial](https://pythonprogramming.net/quantum-computer-programming-tutorial/)
 
 #### References
