@@ -19,7 +19,7 @@ and
 
 ![E(\textbf{AB})](https://render.githubusercontent.com/render/math?math=E(%5Ctextbf%7BAB%7D)) - is a correlation function (for example, spin-spin correlation function) between two points on different sides of the source and arbitrary unit vectors ![\textbf{A}](https://render.githubusercontent.com/render/math?math=%5Ctextbf%7BA%7D) and ![\textbf{B}](https://render.githubusercontent.com/render/math?math=%5Ctextbf%7BB%7D) give the orientation of the detectors.
 
-However, within the framework of quantum mechanics (QM), things are different. There are specific configurations of the experiment for which ![S](https://render.githubusercontent.com/render/math?math=S) is greater than two.  
+However, within the framework of quantum mechanics (QM), things are different. There are spicific orientations of the ditectors for which ![S](https://render.githubusercontent.com/render/math?math=S) is greater than two.  
 
 Thus ineq. 1 appears to be an important and convenient test in favor of one or another theory.  So far, the experiment (despite some challenges) confirms the prediction of the quantum mechanic and, consequently, the non-locality of our nature.
 
