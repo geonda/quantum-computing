@@ -1,5 +1,5 @@
 qiskit_terra==0.12.0
 matplotlib==3.2.0
-numpy==1.18.1
+numpy==1.22.0
 qiskit==0.18.0
 tqdm==4.45.0
